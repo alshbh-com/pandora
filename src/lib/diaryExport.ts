@@ -136,7 +136,7 @@ export function exportDiaryToPDF(
 
   const orangeSection = printOrange ? `
     ${printFinancial ? '<div class="page-break"></div>' : ''}
-    <div class="header">The Pilito - ${officeName}</div>
+     <div class="header">بونديره - ${officeName}</div>
     <div class="section-title">📋 الشيت البرتقالي</div>
     <table>
       <thead><tr>
