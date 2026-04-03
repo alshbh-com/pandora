@@ -1,0 +1,1 @@
+ALTER TABLE public.orders ADD COLUMN IF NOT EXISTS is_settled boolean NOT NULL DEFAULT false;

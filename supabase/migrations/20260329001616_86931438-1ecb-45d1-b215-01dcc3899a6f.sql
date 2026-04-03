@@ -1,0 +1,1 @@
+UPDATE orders SET tracking_id = 'TP-' || barcode WHERE tracking_id = 'temp';

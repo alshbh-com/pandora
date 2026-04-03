@@ -1,0 +1,1 @@
+CREATE TYPE public.app_role AS ENUM ('owner', 'admin', 'courier', 'office');

@@ -1,0 +1,1 @@
+SELECT setval('public.order_barcode_seq', COALESCE((SELECT MAX(barcode::int) FROM orders WHERE barcode ~ '^\d+$'), 0));
