@@ -61,7 +61,7 @@ export default function DailyReport() {
       table{width:100%;border-collapse:collapse} th,td{border:1px solid #333;padding:6px 8px;text-align:right;font-size:11px}
       th{background:#f0f0f0} .summary{margin-top:15px;font-size:14px;font-weight:bold;text-align:center;border:2px solid #000;padding:10px}
     </style></head><body>
-      <div class="header">The Pilito - التقرير اليومي</div>
+      <div class="header">بونديره - التقرير اليومي</div>
       <div class="sub">${new Date(date).toLocaleDateString('ar-EG', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} | عدد الأوردرات: ${totalOrders}</div>
       <table><thead><tr><th>#</th><th>الباركود</th><th>العميل</th><th>المكتب</th><th>العنوان</th><th>الحالة</th><th>الشحن</th></tr></thead>
       <tbody>${rows}</tbody></table>

@@ -1,0 +1,1 @@
+ALTER TABLE public.offices ADD COLUMN can_add_orders BOOLEAN NOT NULL DEFAULT false;
