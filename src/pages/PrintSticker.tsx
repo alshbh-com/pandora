@@ -66,7 +66,7 @@ export default function PrintSticker() {
       const barcode = order.barcode || '';
       return `
         <div class="sticker">
-          <div class="header">The Pilito</div>
+           <div class="header">بونديره</div>
           <div class="date">${new Date(order.created_at).toLocaleDateString('ar-EG')}</div>
           <div class="barcode-num">${barcode}</div>
           <div class="row"><span>الكود: <b>${order.customer_code || '-'}</b></span></div>
