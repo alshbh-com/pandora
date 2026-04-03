@@ -6,7 +6,7 @@ const corsHeaders = {
 }
 
 function codeToEmail(code: string): string {
-  return code.replace(/@/g, '_at_').replace(/[^a-zA-Z0-9._-]/g, '_') + '@thepilito.ship'
+  return code.replace(/@/g, '_at_').replace(/[^a-zA-Z0-9._-]/g, '_') + '@bondira.ship'
 }
 
 
