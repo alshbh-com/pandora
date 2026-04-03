@@ -176,7 +176,7 @@ export function exportDiaryToPDF(
   .summary div { margin: 3px 0; }
   .page-break { page-break-before: always; }
 </style></head><body>
-  <div class="header">The Pilito - ${officeName}</div>
+  <div class="header">بونديره - ${officeName}</div>
   <div class="sub">يومية رقم ${diary.diary_number} | ${format(new Date(diary.diary_date), 'dd/MM/yyyy')} | ${diary.is_closed ? 'مقفولة' : 'مفتوحة'} | ${diaryOrders.length} أوردر</div>
   ${financialSection}
   ${orangeSection}

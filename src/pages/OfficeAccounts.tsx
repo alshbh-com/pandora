@@ -349,7 +349,7 @@ export default function OfficeAccounts() {
       .total-row { background: #e8f4e8; font-weight: bold; }
       .summary-title { font-size: 14px; font-weight: bold; margin: 10px 0 5px; }
     </style></head><body>
-    <div class="header">The Pilito - حسابات ${officeName}</div>
+    <div class="header">بونديره - حسابات ${officeName}</div>
     <div class="sub-header">${format(new Date(), 'dd/MM/yyyy')}</div>
     
     <table>
